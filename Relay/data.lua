@@ -1,0 +1,2 @@
+local Packets = {} -- The packets sent by the primary computer, stated in the config.
+local Connected = {} -- The ID's of the devices that are connected (Wireless Pocket Computers), ID's are generated randomly on first startup

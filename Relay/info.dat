@@ -1,0 +1,4 @@
+The relay option for 'SurvData' is to interact with a primary interface or secondary interface (usually a Pocket Computer) to send data to a 'Relay Point' to be used by
+other 'Relay Points' or 'Pocket Computers', these interactions are usually sent out every two (min) to ten (max) minutes. When configuring your systems, you'll have the
+option to configure both the primary 'Computer' to send its packets directly to any 'Relay Points' within its rage and allow those to transmit their data to another, or
+use the 'Secondary Interfaces' (Pocket Computers) to sent data on the go to the 'Relay Points'

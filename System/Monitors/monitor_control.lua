@@ -1,0 +1,2 @@
+local monitorList = {}
+local monitorNames = {}

@@ -38,5 +38,8 @@ function UptoDate()
 	Draw()
 end
 sleep()
+subTitle = "Checking Repo for newer version"
+Draw()
+sleep(1)
 SelfUpdate.update(Sucessful, UptoDate, "SizableRapter", "cc-SurvData")
 
