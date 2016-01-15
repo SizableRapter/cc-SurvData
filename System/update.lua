@@ -19,14 +19,16 @@ function Draw()
 	term.setCursorPos(math.ceil((w-#subTitle)/2), 10)
 	term.write(subTitle)
 end
-
-local function Sucessful ()
+Draw()
+function Sucessful ()
 	subTitle = 'Update Sucessful Starting System.'
+	Draw()
 end
 
-local function UptoDate()
+function UptoDate()
 	subTitle = 'Upto Date Starting System.'
+	Draw()
 end
-
+sleep()
 SelfUpdate.update(Sucessful, UptoDate, "SizableRapter", "cc-SurvData")
 
