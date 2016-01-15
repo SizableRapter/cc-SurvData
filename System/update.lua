@@ -21,20 +21,20 @@ function Draw()
 end
 Draw()
 function Sucessful ()
-	local FSVER = fs.open("System/.dlversion", "r")
-	local ver = tonumber(file.readAll())
+	local file = fs.open("System/.version", "r")
+	local ver = file.readAll()
 	file.close()
 
-	subTitle = 'Sucessfully updated to version '..FSVER..'.'
+	subTitle = 'Sucessfully updated to version '..tonumber(ver)..'.'
 	Draw()
 end
 
 function UptoDate()
-	local FSVER = fs.open("System/.dlversion", "r")
-	local ver = tonumber(file.readAll())
+	local file = fs.open("System/.version", "r")
+	local ver = file.readAll()
 	file.close()
-		
-	subTitle = 'Upto Date Starting System (Current Version: '..FSVER..'.'
+
+	subTitle = 'Upto Date System (Current Version: '..tonumber(ver)..').'
 	Draw()
 end
 sleep()
